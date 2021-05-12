@@ -40,6 +40,7 @@
     ]
   },
   "proxy": "https://us-central1-tictactoe-3d774.cloudfunctions.net/api",
+  "homepage": "https://e-r-ik.github.io/tictactoeonline",
   "devDependencies": {
     "react-router-dom": "^5.2.0"
   }
