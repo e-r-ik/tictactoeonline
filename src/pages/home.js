@@ -110,13 +110,6 @@ class home extends Component {
                     profilePicture: response.data.userCredentials.imageUrl
                 });
             })
-            /*.catch((error) => {
-                if (error.response.status === 403) {
-                    this.props.history.push('/login');
-                }
-                console.log(error);
-                this.setState({ errorMsg: 'Error in retrieving the data' });
-            });*/
     };
 
     render() {
