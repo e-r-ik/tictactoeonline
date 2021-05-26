@@ -17,7 +17,7 @@ import ListItemText from '@material-ui/core/ListItemText';
 import withStyles from '@material-ui/core/styles/withStyles';
 import AccountBoxIcon from '@material-ui/icons/AccountBox';
 import NotesIcon from '@material-ui/icons/Notes';
-import Avatar from '@material-ui/core/avatar';
+import Avatar from '@material-ui/core/Avatar';
 import ExitToAppIcon from '@material-ui/icons/ExitToApp';
 import CircularProgress from '@material-ui/core/CircularProgress';
 
@@ -50,7 +50,7 @@ const styles = (theme) => ({
         flexGrow: 0,
         marginTop: 20
     },
-    uiProgess: {
+    uiProgress: {
         position: 'fixed',
         zIndex: '1000',
         height: '31px',
@@ -124,7 +124,7 @@ class home extends Component {
         if (this.state.uiLoading === true) {
             return (
                 <div className={classes.root}>
-                    {this.state.uiLoading && <CircularProgress size={150} className={classes.uiProgess} />}
+                    {this.state.uiLoading && <CircularProgress size={150} className={classes.uiProgress} />}
                 </div>
             );
         } else {
